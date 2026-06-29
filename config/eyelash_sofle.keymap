@@ -78,6 +78,28 @@
 
             label = "SHIFT_MCLK";
         };
+
+        // Altera para o canal BT 0 e muda o layer padrão para o Layer 0 (windows)
+        BT0_LAYER0: BT0_LAYER0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <0>;
+            bindings
+                = <&bt BT_SEL 0>
+                = <&df 0>;
+        };
+
+        // Altera para o canal BT 1 e muda o layer padrão para o Layer 1 (mac)
+        BT1_LAYER1: BT1_LAYER1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <0>;
+            bindings
+                = <&bt BT_SEL 1>
+                = <&df 1>;
+        };
     };
 
     keymap {
