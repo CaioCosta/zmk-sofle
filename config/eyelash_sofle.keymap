@@ -71,7 +71,7 @@
             wait-ms = <0>;
             tap-ms = <0>;
             bindings
-                = <&bt BT_SEL 0>, <&df 0>;
+                = <&bt BT_SEL 0>, <&to 0>;
         };
 
         // Altera para o canal BT 1 e muda o layer padrão para o Layer 1 (mac)
@@ -81,7 +81,7 @@
             wait-ms = <0>;
             tap-ms = <0>;
             bindings
-                = <&bt BT_SEL 1>, <&df 1>;
+                = <&bt BT_SEL 1>, <&to 1>;
         };
     };
 
