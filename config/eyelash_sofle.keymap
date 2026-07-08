@@ -63,28 +63,6 @@
         };
     };
 
-    macros {
-        // Altera para o canal BT 0 e muda o layer padrão para o Layer 0 (windows)
-        BT0_LAYER0: BT0_LAYER0 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings
-                = <&bt BT_SEL 0>, <&to 0>;
-        };
-
-        // Altera para o canal BT 1 e muda o layer padrão para o Layer 4 (mac)
-        BT1_LAYER4: BT1_LAYER4 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings
-                = <&bt BT_SEL 1>, <&to 4>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
