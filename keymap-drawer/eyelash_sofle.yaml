@@ -299,7 +299,7 @@ layers:
   - KP 5
   - KP 6
   - KP MULTIPLY
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
