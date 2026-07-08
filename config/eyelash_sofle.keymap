@@ -76,7 +76,7 @@
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
-            display-name = "LAYER0";
+            display-name = "FCK NZS";
         };
 
         layer_1 {
@@ -89,7 +89,7 @@
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
-            display-name = "LAYER1";
+            display-name = "FCK APL";
         };
 
         layer_2 {
@@ -101,7 +101,7 @@
 &trans     &trans     &trans     &trans     &trans     &trans     &mkp LCLK        &trans        &trans    &trans    &trans       &trans
             >;
 
-            display-name = "LAYER2";
+            display-name = "Win L2";
             sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
@@ -114,7 +114,7 @@
 &trans     &trans     &trans     &trans     &trans     &trans     &mkp LCLK        &trans        &trans    &trans      &trans       &trans
             >;
 
-            display-name = "LAYER3";
+            display-name = "Mac L2";
             sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
@@ -127,7 +127,7 @@
 &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans     &trans     &trans     &trans
             >;
 
-            display-name = "LAYER4";
+            display-name = "Numpad";
             sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
@@ -140,7 +140,7 @@
 &trans  &trans        &trans        &trans        &trans        &trans        &trans  &trans        &trans        &trans  &trans  &trans
             >;
 
-            display-name = "LAYER5";
+            display-name = "Settings";
             sensor-bindings = <&scroll_encoder>;
         };
     };
