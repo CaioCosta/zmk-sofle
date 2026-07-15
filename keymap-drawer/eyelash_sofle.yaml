@@ -63,8 +63,8 @@ layers:
   - $$mdi:keyboard-space$$
   - Numpad
   - Settings
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
+  - {t: \, s: '|'}
   FCK APL:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
