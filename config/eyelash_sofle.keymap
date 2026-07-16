@@ -107,11 +107,11 @@
 
         layer_3 {
             bindings = <
-&kp TILDE  &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &mmv MOVE_UP     &kp F6        &kp F7    &kp F8      &kp F9       &kp F10   &kp F11
-&trans     &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)  &mmv MOVE_DOWN   &kp LG(UP)    &kp LEFT  &kp LG(UP)  &kp RIGHT    &trans    &kp F12
-&trans     &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)  &mmv MOVE_LEFT   &kp DOWN      &kp LEFT  &kp DOWN    &kp RIGHT    &trans    &trans
-&trans     &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)  &mmv MOVE_RIGHT  &kp LA(BSPC)  &kp BSPC  &kp DEL     &kp LA(DEL)  &trans    &trans
-&trans     &trans     &trans     &trans     &trans     &trans     &mkp LCLK        &trans        &trans    &trans      &trans       &trans
+&kp TILDE  &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &mmv MOVE_UP     &kp F6        &kp F7        &kp F8    &kp F9         &kp F10   &kp F11
+&trans     &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)  &mmv MOVE_DOWN   &kp LG(UP)    &kp LG(LEFT)  &kp UP    &kp LG(RIGHT)  &trans    &kp F12
+&trans     &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)  &mmv MOVE_LEFT   &kp DOWN      &kp LEFT      &kp DOWN  &kp RIGHT      &trans    &trans
+&trans     &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)  &mmv MOVE_RIGHT  &kp LA(BSPC)  &kp BSPC      &kp DEL   &kp LA(DEL)    &trans    &trans
+&trans     &trans     &trans     &trans     &trans     &trans     &mkp LCLK        &trans        &trans        &trans    &trans         &trans
             >;
 
             display-name = "Mac L2";
