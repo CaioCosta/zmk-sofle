@@ -217,9 +217,9 @@ layers:
   - Gui+T
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - Gui+$$mdi:arrow-up-bold$$
-  - $$mdi:arrow-left-bold$$
-  - Gui+$$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - Gui+$$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
+  - Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
